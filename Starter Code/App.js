@@ -1,5 +1,8 @@
+const keys = Object.keys(observationStatuses);
+const randomKey = keys[Math.floor(Math.random() * keys.length)];
+const randomPhenomenon = phenomenaMap[randomKey];
 
-const randomPhenomena = Math.floor(Math.random() * N);
+console.log(randomPhenomenon); 
 
 
 
